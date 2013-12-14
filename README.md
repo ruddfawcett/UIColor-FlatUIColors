@@ -26,7 +26,7 @@ view.backgroundColor = [UIColor alizarinColor];
 + (instancetype)greenSeaColor;
 + (instancetype)midnightBlueColor;
 + (instancetype)nephritisColor;
-+ (instancetype)flatOrangeColor;
++ (instancetype)flatOrangeColor; // You have to add "flat" before "orange", because there is already a [UIColor orangeColor]
 + (instancetype)peterRiverColor;
 + (instancetype)pomegranateColor;
 + (instancetype)pumpkinColor;
