@@ -1,20 +1,15 @@
-UIColor+FlatUIColors
-====================
+//
+//  UIColor+FlatUIColors.h
+//  Source: http://flatuicolors.com/
+//
+//  Created by Rex Finn on 12/13/13.
+//  Copyright (c) 2013 Rex Finn. All rights reserved.
+//
 
-Simple UIColor category from flat ui colors found here: http://flatuicolors.com/.
+#import <UIKit/UIKit.h>
 
-##Use:
-To use, just import the header, `UIColor+FlatUIColors.h`.  Then (because its a UIColor category) just use, for example:
+@interface UIColor (FlatUIColors)
 
-```obj-c
-UIView *view = [[UIView alloc] initWithFrame:self.view.bounds];
-view.backgroundColor = [UIColor alizarinColor];
-```
-
-
-##Colors:
-
-```obj-c
 + (instancetype)alizarinColor;
 + (instancetype)amethystColor;
 + (instancetype)asbestosColor;
@@ -35,4 +30,5 @@ view.backgroundColor = [UIColor alizarinColor];
 + (instancetype)turquoiseColor;
 + (instancetype)wetAsphaltColor;
 + (instancetype)wisteriaColor;
-```
+
+@end
